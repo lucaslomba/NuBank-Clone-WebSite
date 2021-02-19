@@ -1,0 +1,209 @@
+.nav-link{
+    color: #585858!important;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0 18px!important;
+}
+
+.nav-link.active{
+    color: #8a05be!important;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav-link.login{
+    color: #8a05be!important;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav-link .nav-link__novo{
+    background-color: #f3e6f8;
+    color: #181818!important;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 18px;
+}
+
+#section_inicio{
+    background-color: #8a05be;
+    min-height: 100vh;
+}
+
+#section_inicio h1{
+    font-size: 48px;
+}
+
+#section_inicio .saiba-mais{
+    font-size: 22px;
+}
+
+#section_inicio .saiba-mais:hover{
+    text-decoration: underline;
+}
+
+.btn-nuBank{
+    width: 100%;
+    background-color: #d8d8d8;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.btn-nuBank:hover{
+    background-color: #8a05be;
+    color: white;
+}
+
+#input-cpf{
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #8a05be;
+}
+
+.card{
+    width: 100%;
+    border-radius: 14px;
+}
+
+#sectionCaptura{
+    min-height: 80vh;
+}
+
+#sectionCaptura h1{
+    width: 50%;
+}
+
+#sectionCaptura .saiba-mais{
+    font-size: 22px;
+    color: #8a05be!important;
+}
+
+#sectionCaptura .saiba-mais:hover{
+    text-decoration: underline;
+}
+
+#sectionContaNuBank{
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+#sectionContaNuBank h1{
+    width: 50%;
+}
+
+#sectionContaNuBank .saiba-mais{
+    font-size: 22px;
+    color: #8a05be!important;
+}
+
+#sectionContaNuBank .destaque{
+    color: #8a05be!important;
+}
+
+#sectionContaNuBank .saiba-mais:hover{
+    text-decoration: underline;
+}
+
+#sectionCartaoNuBank{
+    min-height: 80vh;
+}
+
+#sectionCartaoNuBank h1{
+    width: 50%;
+}
+
+#sectionCartaoNuBank .saiba-mais{
+    font-size: 22px;
+    color: #8a05be!important;
+}
+
+#sectionCartaoNuBank .destaque{
+    color: #8a05be!important;
+}
+
+#sectionCartaoNuBank .saiba-mais:hover{
+    text-decoration: underline;
+}
+
+#sectionRewards{
+    min-height: 80vh;
+    background-color: #530082;
+}
+
+#sectionRewards h1{
+    width: 50%;
+}
+
+#sectionRewards .saiba-mais{
+    font-size: 22px;
+    color: #ffffff!important;
+}
+
+#sectionRewards .destaque{
+    color: #c093fb!important;
+}
+
+#sectionRewards .saiba-mais:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+    h1{
+        font-size: 30px!important;
+    }
+
+    #img-centro{
+        display: none!important;
+    }
+
+    #row-content{
+        justify-content: space-between;
+    }
+
+    #section_inicio{
+        padding-left: 15px!important;
+    }
+
+    #sectionCaptura h1{
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    #sectionCaptura{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    #sectionContaNuBank h1{
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    #sectionContaNuBank{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    #sectionCartaoNuBank h1{
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    #sectionCartaoNuBank{
+        width: 100%;
+    }
+
+    #sectionRewards h1{
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    #sectionRewards{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+}
